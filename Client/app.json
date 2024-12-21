@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Company Phone Book",
+    "slug": "CompanyPhoneBook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/milk.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/milk.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.niv6778.CompanyPhoneBook"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9046197-1ab5-4ec5-8c4c-a855df19fa70"
+      }
+    },
+    "plugins": [
+      ["expo-build-properties", {
+        "android": {
+          "usesCleartextTraffic": true
+        }
+      }]
+    ]
+  }
+}
